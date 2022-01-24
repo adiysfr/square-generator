@@ -1,0 +1,21 @@
+.wrapp--square{
+    table{
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 2px;
+        tr td{
+            font-size: 22px;
+            font-weight: 700;
+            color: white;
+            width: 80px;
+            height: 80px;
+            border: 2px solid black;
+        }
+    }
+    .square_yellow{
+        background-color: yellow;
+    }
+    .square_red{
+        background-color: red;
+    }
+}

@@ -1,0 +1,21 @@
+
+
+  <!-- <footer class="container">
+    <nav>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </nav>
+  </footer> -->
+
+@@if(context.script) {
+  @@for(var i=0; i < script.length; i++) {
+  <script src="`+script[i]+`" ></script>
+  }
+}
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

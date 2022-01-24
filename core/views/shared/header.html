@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+@@if(context.style) {
+  @@for(var i=0; i < style.length; i++) {
+  <link rel="stylesheet" href="`+style[i]+`">
+  }
+}
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>Front End Starterpack</title>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <a href="square.html">Mini Project Square Generator</a>
+    </nav>
+  </header>
+  
+
